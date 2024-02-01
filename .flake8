@@ -1,0 +1,13 @@
+[flake8]
+max-line-length = 120
+max-complexity = 12
+docstring_style = sphinx
+count = True
+warn-symbols =
+    os.path = Warning! Consider using pathlib instead
+exclude = .git,__pycache__
+# List of error messages to be ignored
+ignore = C400,C401,C402,C901,W503,E203
+
+per-file-ignores =
+    ; path/to/file.py: W503
