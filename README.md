@@ -6,7 +6,7 @@ Skeleton code for fastapi.
 
 * Clone
 * `poetry install` 
-* `poetry run python src/fastapi_example/app.py --help
+* `poetry run python src/fastapi_example/app.py --help`
 
 ```
 fastapi-example (main)> poetry run python src/fastapi_example/app.py --help
