@@ -6,7 +6,7 @@ class ExampleResp(BaseModel):
 
     message: str
 
-    model_config = {"json_schema_extra": {"examples": [{"detail": "Hello, World!"}]}}
+    model_config = {"json_schema_extra": {"examples": [{"message": "Hello, World!"}]}}
 
 
 class ExampleReq(BaseModel):
