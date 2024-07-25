@@ -4,7 +4,7 @@ from pydantic import BaseModel
 class ExampleResp(BaseModel):
     """Example Response Model"""
 
-    detail: str
+    message: str
 
     model_config = {"json_schema_extra": {"examples": [{"detail": "Hello, World!"}]}}
 
